@@ -29,14 +29,14 @@ Contents:-
 7.Creating Submission file
 '''
 #data analysis libraries
-import numpy as np
-import pandas as pd
+import numpy as np        #used for stroring large multidimensional array
+import pandas as pd       #flexible data manipulation,manupulating data tables
 #pd.set_option('display.width',1000)   #Not required now
 pd.set_option('precision',2)  #print upto two decimal places of float data
 
 #visulaization libraries
-import matplotlib.pyplot as plt
-import seaborn as sbn
+import matplotlib.pyplot as plt               #General graphs(bars,pies,scatter plots)
+import seaborn as sbn                         #Statstical data visualization based on matplotlib
 
 #ignore warning
 import warnings
