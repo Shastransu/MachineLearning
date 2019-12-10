@@ -32,7 +32,7 @@ Contents:-
 import numpy as np
 import pandas as pd
 #pd.set_option('display.width',1000)   #Not required now
-pd.set_option('precision',2)
+pd.set_option('precision',2)  #print upto two decimal places of float data
 
 #visulaization libraries
 import matplotlib.pyplot as plt
